@@ -17,6 +17,11 @@ body {
   padding-top: 4rem;
 }
 
+a {
+  text-decoration: none;
+  color: blue;
+}
+
 /* Header Styles */
 header {
   display: flex;
@@ -61,6 +66,16 @@ nav li {
   padding-left: 1rem;
 }
 
+nav li a {
+  color: black;
+  opacity: 0.8;
+}
+
+nav li a:hover {
+  text-decoration: underline;
+  opacity: 1;
+}
+
 /* Banner Styles */
 
 .banner {
@@ -69,16 +84,17 @@ nav li {
   margin-top: 4rem;
 }
 
-.banner-img {
-}
-
-.banner img {
+.banner_container {
   width: 60%;
-  height: 10%;
   margin-top: 2rem;
   margin-bottom: 2rem;
   margin-left: 1.5rem;
   margin-right: 1.5rem;
+}
+
+.banner_container img {
+  width: 100%;
+  height: auto;
 }
 
 .banner_text {
@@ -86,6 +102,8 @@ nav li {
   flex-direction: column;
   justify-content: center;
   align-content: left;
+  margin-right: 1.5rem;
+  width: 40%;
 }
 
 .banner_text h1 {
@@ -99,10 +117,98 @@ nav li {
 }
 
 .button {
-  width: 40%;
-  background-color: gray;
+  width: 90%;
+  background-color: #70C289;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   text-align: center;
   font-weight: bold;
+}
+
+.banner_text a {
+  text-decoration: none;
+  color: black;
+  opacity: 1;
+}
+
+.button:hover {
+  background-color: #41A05D;
+}
+
+/* Secondary Banner Styles */
+
+.secondary_banner {
+  display: flex;
+  margin-top: 2rem;
+  width: 100%;
+}
+
+.quote_container {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  margin-bottom: 2rem;
+  width: 60%;
+}
+
+.quote_container img {
+  width: 100%;
+  padding-bottom: 2rem;
+}
+
+.quote_container h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.quote_container p {
+  margin-bottom: 1.5rem;
+}
+
+.quote_author p {
+
+}
+
+.information_container {
+  width: 40%;
+}
+
+#orientation {
+  padding-top: 0;
+}
+
+.info_box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.info_box img {
+  width: 35%;
+  height: auto;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-right: 1rem;
+}
+
+.info_text {
+  width: 65%;
+}
+
+.info_text h3 {
+  padding-bottom: .5rem;
+  font-size: 1.3rem;
+}
+
+.info_text p {
+  padding-bottom: .5rem;
+}
+
+.info_text a {
+  font-size: 0.9rem;
+  opacity: 0.7
+}
+
+.info_text a:hover {
+  text-decoration: underline;
+  opacity: 1;
 }
