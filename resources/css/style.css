@@ -212,3 +212,112 @@ nav li a:hover {
   text-decoration: underline;
   opacity: 1;
 }
+
+/* Courses Section */
+.course_container {
+  display: flex;
+  flex-direction: column;
+  background-color: lightgray;
+}
+
+.course_content {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-left: 3.5rem;
+  margin-right: 3.5rem;
+  margin-bottom: 2rem;
+}
+
+.course_heading {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.course_box {
+  margin: 1rem;
+  width: 19rem;
+  background-color: white;
+}
+
+.course_box img {
+  width: 19rem;
+  height: auto;
+}
+
+.course_box h3 {
+  font-size: 1.3rem;
+  padding: 1rem 1rem 0.5rem 1rem;
+}
+
+.course_box p {
+  padding-bottom: 1.5rem;
+  font-size: .9rem;
+  padding-left: 1rem;
+}
+
+#courses {
+  text-transform: uppercase;
+  padding-bottom: 0.5rem;
+  font-size: 1rem;
+}
+
+/* Video Banner Styles */
+.video_banner {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2rem;
+  width: 100%;
+
+}
+
+.thesis_content {
+  display: flex;
+  flex-direction: row;
+}
+
+.thesis_heading {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.quote_container video {
+  margin-bottom: 1.5rem;
+  width: 100%;
+}
+
+.quote_container h3 {
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+}
+
+#quote {
+  width: 100%;
+}
+
+/* Footer Styles */
+footer {
+  display: flex;
+  justify-content: space-between;
+  height: 5rem;
+  background-color: lightgray;
+}
+
+.copyright {
+  margin-left: 1.5rem;
+  margin-top: 1rem;
+}
+
+.terms {
+  display: flex;
+  margin-top: 1rem;
+}
+
+.terms p {
+  padding-right: 1.5rem;
+}
