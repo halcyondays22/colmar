@@ -395,7 +395,6 @@ footer {
     margin-left: 1rem;
     margin-bottom: 2rem;
     margin-right: 1rem;
-    flex-wrap: wrap;
     }
 
   .banner_text p {
@@ -592,7 +591,6 @@ footer {
       margin-top: 2rem;
       margin-left: 1rem;
       margin-bottom: 2rem;
-      flex-wrap: wrap;
     }
 
     .banner_text h1 {
