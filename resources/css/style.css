@@ -375,34 +375,37 @@ footer {
   }
 
 /* Mobile Banner Styles */
-
   .banner {
     flex-direction: column;
     justify-content: center;
     width: 100%;
-  }
+    max-width: 100%;
+    }
 
   .banner_container {
     width: 100%;
     margin: 0;
-  }
+    max-width: 100%;
+    }
 
   .banner_text {
     width: 100%;
+    max-width: 100%;
     margin-top: 2rem;
     margin-left: 1rem;
     margin-bottom: 2rem;
     flex-wrap: wrap;
-  }
-
-  .banner_text h1 {
-    font-size: 2rem;
-    margin-bottom: 2rem;
-  }
+    }
 
   .banner_text p {
     margin-bottom: 2rem;
     font-size: 1rem;
+    width: 100%;
+    }
+
+  .banner_text h1 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
   }
 
 /* Mobile Info Banner */
