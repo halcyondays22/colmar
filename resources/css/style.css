@@ -30,8 +30,8 @@ header {
   top: 0px;
   position: fixed;
   z-index: 1;
-  background-color: #F1FCFF;
-  color: #397586;
+  background-color: #9ABEC8;;
+  color: #000000;
 }
 
 .logo {
@@ -73,8 +73,9 @@ nav li {
 }
 
 nav li a {
-  color: #397596;
+  color: #000000;
   opacity: 0.8;
+  font-weight: 500;
 }
 
 nav li a:hover {
@@ -179,10 +180,6 @@ nav li a:hover {
   display: none;
 }
 
-.quote_author p {
-
-}
-
 .information_container {
   width: 40%;
 }
@@ -274,17 +271,18 @@ nav li a:hover {
   font-weight: 500;
 }
 
-.course_box p {
+.course_list {
   padding-bottom: 1.5rem;
   font-size: .9rem;
   padding-left: 1rem;
 }
 
-#courses {
+.courses {
   text-transform: uppercase;
   padding-bottom: 0.5rem;
   font-size: 1rem;
   font-weight: 400;
+  padding-left: 1rem;
 }
 
 /* Video Banner Styles */
@@ -319,6 +317,10 @@ nav li a:hover {
 
 #quote {
   width: 100%;
+}
+
+#fisma {
+  padding-top: 0;
 }
 
 /* Footer Styles */
