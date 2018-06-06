@@ -30,7 +30,8 @@ header {
   top: 0px;
   position: fixed;
   z-index: 1;
-  background-color: white;
+  background-color: #F1FCFF;
+  color: #397586;
 }
 
 .logo {
@@ -72,7 +73,7 @@ nav li {
 }
 
 nav li a {
-  color: black;
+  color: #397596;
   opacity: 0.8;
 }
 
@@ -220,19 +221,18 @@ nav li a:hover {
 
 .info_text a {
   font-size: 0.9rem;
-  opacity: 0.7
+  color: #2200CC;
 }
 
 .info_text a:hover {
   text-decoration: underline;
-  opacity: 1;
 }
 
 /* Courses Section */
 .course_container {
   display: flex;
   flex-direction: column;
-  background-color: lightgray;
+  background-color: #CFE5EC;
 }
 
 .course_content {
@@ -256,6 +256,11 @@ nav li a:hover {
   margin: 1rem;
   width: 19rem;
   background-color: white;
+}
+
+.course_box:hover {
+  transition: background-color 400ms ease-out;
+  background-color: #CFCFCF;
 }
 
 .course_box img {
@@ -321,7 +326,7 @@ footer {
   display: flex;
   justify-content: space-between;
   height: 5rem;
-  background-color: lightgray;
+  background-color: #9ABEC8;
 }
 
 .copyright {
@@ -337,6 +342,8 @@ footer {
 .terms p {
   padding-right: 1.5rem;
 }
+
+/* Mobile Media Query */
 
 @media only screen and (min-width: 320px) and (max-width: 480px) {
 
@@ -527,5 +534,198 @@ footer {
   .terms {
     display: none;
   }
+
+}
+
+/* iPhone X Style for Testing */
+@media only screen and (min-device-width: 375px) and (max-device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+
+  /* Mobile Universal Styles */
+    body {
+      width: 100%;
+    }
+
+
+  /* Mobile Nav Styles */
+    .logo {
+      display: none;
+    }
+
+    .desktop_nav {
+      display: none;
+    }
+
+    .mobile_nav {
+      display: flex;
+      justify-content: space-around;
+      margin: 0;
+    }
+
+  /* Mobile Banner Styles */
+
+    .banner {
+      flex-direction: column;
+      justify-content: center;
+      width: 100%;
+    }
+
+    .banner_container {
+      width: 100%;
+      margin: 0;
+    }
+
+    .banner_text {
+      width: 100%;
+      margin-top: 2rem;
+      margin-left: 1rem;
+      margin-bottom: 2rem;
+      flex-wrap: wrap;
+    }
+
+    .banner_text h1 {
+      font-size: 2rem;
+      margin-bottom: 2rem;
+    }
+
+    .banner_text p {
+      margin-bottom: 2rem;
+      font-size: 1rem;
+    }
+
+  /* Mobile Info Banner */
+
+    .secondary_banner {
+      width: 100%;
+    }
+
+    .quote_container {
+      display: none;
+    }
+
+    .information_container {
+      width: 100%;
+      flex-direction: column;
+      margin-right: 1rem;
+      margin-left: 1rem;
+    }
+
+    .info_box {
+      flex-direction: column;
+      width: 100%;
+    }
+
+    .info_box img {
+      width: 100%;
+      padding-right: 0;
+      padding-top: 0;
+    }
+
+    .mobile_img {
+      display: flex;
+      width: 100%;
+    }
+
+    .desktop_img {
+      display: none;
+    }
+
+    .info_text {
+      width: 100%;
+      margin-left: 1rem;
+      margin-bottom: 4rem;
+    }
+
+    #lecture {
+      margin-bottom: 2rem;
+    }
+
+  /*Mobile Course Styles*/
+
+    .course_box  {
+      margin-left: 1rem;
+      margin-right: 1rem;
+      margin-bottom: 0.5rem;
+      margin-top: 0;
+      width: 100%;
+    }
+
+    .course_heading {
+      margin-bottom: 1rem;
+    }
+
+    .course_box img {
+      display: none;
+    }
+
+    .course_box p {
+      display: none;
+    }
+
+    .course_box h3 {
+      font-size: 1.3rem;
+      padding: 1rem 0 1.5rem 1rem;
+    }
+
+    .course_content {
+      margin-right: 0;
+      margin-left: 0;
+      margin-bottom: 0;
+      padding-bottom: 2rem;
+      width: 100%;
+    }
+
+  /* Mobile Thesis Styles */
+    .video_banner {
+      margin-bottom: 1.5rem;
+    }
+
+    .quote_container h3 {
+      display: none;
+    }
+
+    #thesis_vid {
+      width: 100%;
+      display: block;
+      margin: 0 0 0 0;
+    }
+
+    .quote_container p {
+      display: none;
+    }
+
+    #thesis_container {
+      display: none;
+    }
+
+    .quote_container video {
+      width: 100%;
+      margin-top: 0;
+    }
+
+    .thesis_heading {
+      margin-bottom: 1rem;
+    }
+
+    /* Mobile Footer Styles */
+    footer {
+      display: block;
+      background-color: lightgray;
+      width: 100%;
+      height: auto;
+      margin: 0;
+    }
+
+    .copyright {
+      padding-left: 1rem;
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+      margin: 0;
+      font-size: 0.75rem;
+      text-align: center;
+    }
+
+    .terms {
+      display: none;
+    }
 
 }
