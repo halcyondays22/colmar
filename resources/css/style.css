@@ -522,7 +522,7 @@ footer {
   /* Mobile Footer Styles */
   footer {
     display: block;
-    background-color: lightgray;
+    background-color: #9ABEC8;
     width: 100%;
     height: auto;
     margin: 0;
@@ -564,6 +564,7 @@ footer {
       display: flex;
       justify-content: space-around;
       margin: 0;
+      background-color: #9ABEC8;
     }
 
   /* Mobile Banner Styles */
@@ -714,7 +715,7 @@ footer {
     /* Mobile Footer Styles */
     footer {
       display: block;
-      background-color: lightgray;
+      background-color: #9ABEC8;
       width: 100%;
       height: auto;
       margin: 0;
