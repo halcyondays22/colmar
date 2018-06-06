@@ -30,7 +30,7 @@ header {
   top: 0px;
   position: fixed;
   z-index: 1;
-  background-color: #9ABEC8;;
+  background-color: #9ABEC8;
   color: #000000;
 }
 
@@ -112,7 +112,6 @@ nav li a:hover {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-content: left;
   margin-right: 1.5rem;
   width: 40%;
 }
@@ -356,6 +355,10 @@ footer {
 
 
 /* Mobile Nav Styles */
+  header {
+    background-color: #9ABEC8;
+  }
+
   .logo {
     display: none;
   }
@@ -368,6 +371,7 @@ footer {
     display: flex;
     justify-content: space-around;
     margin: 0;
+    background-color: #9ABEC8;
   }
 
 /* Mobile Banner Styles */
@@ -536,7 +540,6 @@ footer {
   .terms {
     display: none;
   }
-
 }
 
 /* iPhone X Style for Testing */
