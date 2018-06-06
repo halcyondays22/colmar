@@ -582,6 +582,7 @@ footer {
 
     .banner_text {
       width: 100%;
+      max-width: 100%;
       margin-top: 2rem;
       margin-left: 1rem;
       margin-bottom: 2rem;
@@ -596,6 +597,7 @@ footer {
     .banner_text p {
       margin-bottom: 2rem;
       font-size: 1rem;
+      width: 100%;
     }
 
   /* Mobile Info Banner */
