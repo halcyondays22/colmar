@@ -113,7 +113,7 @@ nav li a:hover {
   flex-direction: column;
   justify-content: center;
   margin-right: 1.5rem;
-  width: 40%;
+  width: 100%;
 }
 
 .banner_text h1 {
@@ -389,8 +389,7 @@ footer {
     }
 
   .banner_text {
-    width: 100%;
-    max-width: 100%;
+    width: auto;
     margin-top: 2rem;
     margin-left: 1rem;
     margin-bottom: 2rem;
@@ -586,8 +585,7 @@ footer {
     }
 
     .banner_text {
-      width: 100%;
-      max-width: 100%;
+      width: auto;
       margin-top: 2rem;
       margin-left: 1rem;
       margin-bottom: 2rem;
